@@ -24,25 +24,25 @@ const questions = [
     },
     {
         type: "input",
-        message: "How would you describe your project?",
+        message: "Please describe your project?",
         name: "desc",
         default: "This application will generate a README.md file for your current project."
     },
     {
         type: "input",
-        message: "What are the steps required to install your project?",
+        message: "What steps are required to install your project?",
         name: "install",
         default: "Step 1: Run npm install and Step 2: Run node index.js"
     },
     {
         type: "input",
-        message: "Write instructions for using your project.",
+        message: " please write instructions for using your project.",
         name: "usage",
         default: 
     },
     {
         type: "input",
-        message: "please enter git hub user names of the contributor if any (If there are mulitple contributor, seperate names with comma and no space! )",
+        message: "Enter GitHub usernames of the contributor if any.",
         name: "contributors"
     },
     {
