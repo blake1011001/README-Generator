@@ -36,10 +36,10 @@ const questions = [
     },
     {
         type: "input",
-        message: " please write instructions for using your project.",
+        message: "Please write instructions for using your project.",
         name: "usage",
-        default: 
-    },
+        default: "usage"
+    },   
     {
         type: "input",
         message: "Enter GitHub usernames of the contributor if any.",
